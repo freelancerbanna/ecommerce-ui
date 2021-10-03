@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Announcement, Footer, Nav, NewsLetter, Product } from "../components";
+import { Announcement, NewsLetter, Product } from "../components";
 
 const Container = styled.div``;
 const Title = styled.h1`
@@ -31,7 +31,6 @@ const Filter = styled.div``;
 const ProductList = () => {
   return (
     <Container>
-      <Nav />
       <Announcement />
       <Title>Dress</Title>
       <FilterContainer>
@@ -69,7 +68,6 @@ const ProductList = () => {
       </FilterContainer>
       <Product />
       <NewsLetter />
-      <Footer />
     </Container>
   );
 };

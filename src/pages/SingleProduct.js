@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Add, Remove } from "@material-ui/icons";
-import { Announcement, Footer, Nav, NewsLetter } from "../components";
+import { Announcement, NewsLetter } from "../components";
 import { tablet } from "../responsive";
 
 const Container = styled.div``;
@@ -107,7 +107,6 @@ const Button = styled.button`
 const SingleProduct = () => {
   return (
     <Container>
-      <Nav />
       <Announcement />
       <Wrapper>
         <ImageContainer>
@@ -153,7 +152,6 @@ const SingleProduct = () => {
         </InfoContainer>
       </Wrapper>
       <NewsLetter />
-      <Footer />
     </Container>
   );
 };

@@ -1,12 +1,10 @@
 import React from "react";
 import {
   Announcement,
-  Nav,
   Slider,
   Categories,
   Product,
   NewsLetter,
-  Footer,
 } from "../components";
 
 const Home = () => {

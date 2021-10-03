@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Announcement, Footer, Nav, CartProduct } from "../components";
+import { CartProduct } from "../components";
 import { tablet } from "../responsive";
 
 const Container = styled.div``;
